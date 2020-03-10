@@ -8,7 +8,7 @@ pipeline {
 		}
 		stage('Build'){
 		   steps {
-                echo 'echo "Build"; exit 1'
+                 input('Do you want to continue?')
             }
 		}
         stage('Test') {
