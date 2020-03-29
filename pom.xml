@@ -63,5 +63,19 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    
   </build>
+   <distributionManagement>
+   <repository>
+      <id>deployment</id>
+      <name>Internal Release</name>
+      <url>http://18.222.110.247:8081/repository/sample_release/</url>
+   </repository>
+   <snapshotRepository>
+      <id>deployment</id>
+      <name>Internal Snapshot Release</name>
+      <url>http://18.222.110.247:8081/repository/sample_snapshot/</url>
+   </snapshotRepository>
+ </distributionManagement>
+  
 </project>
